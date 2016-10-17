@@ -1,0 +1,20 @@
+{
+  "name": "server-frame-utils",
+  "version": "0.0.1",
+  "description": "Server utils plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab --pattern test -r console -v"
+  },
+  "author": "Mircea Alexandru",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "joi": "^9.1.1",
+    "lodash": "^4.16.4",
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
