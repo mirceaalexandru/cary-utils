@@ -7,6 +7,9 @@ exports.register = function (server, options, next) {
 		},
 		{
 			register: require('./lib/email/template')
+		},
+		{
+			register: require('./lib/token')
 		}
 	], next);
 };
