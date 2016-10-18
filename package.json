@@ -8,6 +8,7 @@
   },
   "author": "Mircea Alexandru",
   "dependencies": {
+    "aws-sdk": "^2.6.9",
     "ejs": "^2.5.2",
     "joi": "^9.1.1",
     "lodash": "^4.16.4",

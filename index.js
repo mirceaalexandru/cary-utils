@@ -9,6 +9,9 @@ exports.register = function (server, options, next) {
 			register: require('./lib/email/template')
 		},
 		{
+			register: require('./lib/aws/sns')
+		},
+		{
 			register: require('./lib/token')
 		}
 	], next);
