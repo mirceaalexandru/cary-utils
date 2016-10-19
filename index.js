@@ -12,6 +12,9 @@ exports.register = function (server, options, next) {
 			register: require('./lib/aws/sns')
 		},
 		{
+			register: require('./lib/job/index')
+		},
+		{
 			register: require('./lib/token')
 		}
 	], next);
