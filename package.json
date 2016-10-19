@@ -1,6 +1,6 @@
 {
   "name": "server-frame-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Server utils plugin",
   "main": "lib/index.js",
   "scripts": {
