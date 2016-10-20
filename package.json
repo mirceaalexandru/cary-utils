@@ -13,6 +13,7 @@
     "fast-safe-stringify": "^1.1.1",
     "joi": "^9.1.1",
     "lodash": "^4.16.4",
+    "node-uuid": "^1.4.7",
     "nodemailer": "^2.6.4",
     "nodemailer-smtp-transport": "^2.7.2"
   },
