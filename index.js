@@ -15,6 +15,9 @@ exports.register = function (server, options, next) {
 			register: require('./lib/job/index')
 		},
 		{
+			register: require('./lib/job/api')
+		},
+		{
 			register: require('./lib/token')
 		}
 	], next);
