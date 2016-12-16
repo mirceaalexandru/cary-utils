@@ -1,6 +1,6 @@
 {
-  "name": "server-frame-utils",
-  "version": "0.0.4",
+  "name": "cary-utils",
+  "version": "0.0.1",
   "description": "Server utils plugin",
   "main": "lib/index.js",
   "scripts": {
@@ -13,9 +13,9 @@
     "fast-safe-stringify": "^1.1.1",
     "joi": "^9.1.1",
     "lodash": "^4.16.4",
-    "node-uuid": "^1.4.7",
     "nodemailer": "^2.6.4",
-    "nodemailer-smtp-transport": "^2.7.2"
+    "nodemailer-smtp-transport": "^2.7.2",
+    "uuid": "^3.0.1"
   },
   "engines": {
     "node": ">=6.0.0"
